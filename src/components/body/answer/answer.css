@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+body{
+    position: relative;
+}
+
+.page_body_answer{
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.answer_item{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleimg{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 99.2vw;
+}
+
+.answer_comment{
+    font-size: 18px;
+    line-height: 1.67;
+}
+
+.answer_span{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 21px;
+}
+
+.link_Atag{
+    margin-top: 48px;
+    display: inline-block;
+    width: 295px;
+    font-size:18px;
+    line-height: 70px;
+    font-weight: 500;
+    text-align: center;
+    color:#fff;
+    border-radius: 35px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: .3s;
+    text-decoration: none;
+}

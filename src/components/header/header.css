@@ -1,0 +1,36 @@
+*{}
+
+.page_header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a1729;
+}
+
+.title_total{
+    display: flex;
+}
+
+.logoimg{
+    margin-top: auto;
+    margin-bottom: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title_name{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 174px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.fa-bars{
+    color:#fff;
+    font-size:28px;
+    height: 70px;
+    padding-left: 50px;
+    border-left: 1px solid rgba(255,255,255,0.2);
+}
