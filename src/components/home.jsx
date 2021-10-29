@@ -1,18 +1,15 @@
-import React from 'react';
-import Body from './body/body';
-import Footer from './footer/footer';
-import Header from './header/header';
-import Signup from './signup/signup';
+import React from "react";
+import Body from "./body/body";
+import Footers from "./footer/footer";
+import Header from "./header/header";
 
-const Home = props => {
-    return (
-        <>
-            <Header/>
-            <Body/>
-            <Footer/>
-            <Signup/>
-        </>
-    )
+const Home = (props) => {
+  return (
+    <>
+      <Body />
+      <Footers />
+    </>
+  );
 };
 
 export default Home;
